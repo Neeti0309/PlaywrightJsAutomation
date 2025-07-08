@@ -1,0 +1,86 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Neeti Mishra\\PLAYWRIGHTAUTOMATION\\playwright.config.js",
+    "rootDir": "C:/Users/Neeti Mishra/PLAYWRIGHTAUTOMATION/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "C:\\Users\\Neeti Mishra\\PLAYWRIGHTAUTOMATION\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Neeti Mishra/PLAYWRIGHTAUTOMATION/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Neeti Mishra/PLAYWRIGHTAUTOMATION/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.53.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
+      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+    }
+  ],
+  "stats": {
+    "startTime": "2025-07-08T06:00:03.815Z",
+    "duration": 20.076999999999998,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
